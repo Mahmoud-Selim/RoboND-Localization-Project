@@ -9,7 +9,7 @@
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
   
-  <include file="$(find udacity_bot)/launch/robot_description.launch"/>
+  <include file="$(find udacity_bot)/launch/race_car_description.launch"/>
 
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
